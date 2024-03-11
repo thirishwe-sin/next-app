@@ -1,12 +1,14 @@
 import Link from "next/link";
-import ProductCard from "./users/components/ProductCard";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World</h1>
-      <Link href="./users">Users</Link>
-      <ProductCard />
+    <main className="bg-primary p-0">
+      <div className="flex flex-row items-center justify-between container m-auto bg-primary">
+        <h1 className="text-secondary">Thiri Shwe Sin</h1>
+        <div className="flex flex-row gap-3 p-3">
+        <Link href="./users" className="text-secondary btn btn-ghost hover:border-dotted hover:border-white">Users</Link>
+        </div>
+      </div>
     </main>
   )
 }

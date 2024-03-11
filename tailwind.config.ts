@@ -14,7 +14,25 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors: {
+      primary: '#0A112B'
+    }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes:  [
+      {
+        mytheme: {
+          "primary": "#0A112B",
+          "secondary": "#FFFFFF",
+          "accent": "#37cdbe",
+          "neutral": "#3d4451",
+          "base-100": "#ffffff",
+        },
+      },
+      "dark",
+      "cupcake",
+    ],
+  },
 }
 export default config
