@@ -25,9 +25,12 @@ const config: Config = {
         mytheme: {
           "primary": "#0A112B",
           "secondary": "#FFFFFF",
-          "accent": "#37cdbe",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
+          "accent": "#1A316E",
+          "neutral": "#4979AD",
+          "lighten": "#A4C0E0",
+          'blue' : "#3b82f6",
+          "purple": "#a855f7",
+          "pink" : "#ec4899"
         },
       },
       "dark",

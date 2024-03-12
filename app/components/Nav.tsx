@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function index() {
+const Nav = () => {
   return (
     <div>
-      <h1>Hello news</h1>
+      Nav
     </div>
   )
 }
+
+export default Nav

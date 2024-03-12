@@ -1,13 +1,13 @@
 import Link from "next/link";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomeSection from "./components/HomeSection";
 
 export default function Home() {
   return (
-    <main className="bg-primary p-0">
-      <div className="flex flex-row items-center justify-between container m-auto bg-primary">
-        <h1 className="text-secondary">Thiri Shwe Sin</h1>
-        <div className="flex flex-row gap-3 p-3">
-        <Link href="./users" className="text-secondary btn btn-ghost hover:border-dotted hover:border-white">Users</Link>
-        </div>
+    <main className="flex min-h-screen flex-col bg-primary">
+      <div className="container mx-auto px-12 py-4 ">
+        <HomeSection />
       </div>
     </main>
   )
