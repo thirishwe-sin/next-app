@@ -15,7 +15,15 @@ const config: Config = {
       },
     },
     colors: {
-      primary: '#0A112B'
+      primary: '#0A112B',
+      "secondary": "#FFFFFF",
+      "accent": "#1A316E",
+      "neutral": "#4979AD",
+      "lighten": "#A4C0E0",
+      'blue' : "#3b82f6",
+      "purple": "#a855f7",
+      "pink" : "#ec4899",
+      "dark" : "#000000"
     }
   },
   plugins: [require("daisyui")],
@@ -30,7 +38,8 @@ const config: Config = {
           "lighten": "#A4C0E0",
           'blue' : "#3b82f6",
           "purple": "#a855f7",
-          "pink" : "#ec4899"
+          "pink" : "#ec4899",
+          "dark" : "#000000"
         },
       },
       "dark",
