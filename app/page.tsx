@@ -8,10 +8,9 @@ import About from "./about/page";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-primary">
-      <div className="container mx-auto px-0 py-4 ">
+      <div className="max-w-screen-xl px-4 py-4 md:mx-auto">
         <HomeSection />
-        <About />
       </div>
     </main>
-  )
+  );
 }

@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='container-fluid bg-accent'>
-      <footer className='bg-accent container mx-auto'>
-      <div className='bg-accent'>
-      <span className='text-secondary'> 
-        Footer
-      </span>
+    <footer className=" bg-accent">
+      <div className="max-w-screen-xl md:mx-auto">
+        <div className="">
+          <span className="text-gray">©2024 thiri-dev. All rights reserve</span>
+        </div>
       </div>
     </footer>
-    </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
