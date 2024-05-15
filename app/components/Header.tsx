@@ -8,14 +8,14 @@ import ProfileIcon from "@/./public/assets/images/square-code.png";
 import Image from "next/image";
 
 const navLinks = [
-  {
-    title: "Blogs",
-    path: "blogs",
-  },
-  {
-    title: "About",
-    path: "/about",
-  },
+  // {
+  //   title: "Blogs",
+  //   path: "blogs",
+  // },
+  // {
+  //   title: "About",
+  //   path: "/about",
+  // },
   {
     title: "Projects",
     path: "projects",
@@ -32,7 +32,7 @@ const Header = () => {
   
 
   return (
-    <header className="sticky shadow shadow-lighten top-0 left-0 right-0 bg-primary z-50">
+    <header className="sticky shadow shadow-cyan-400 top-0 left-0 right-0 bg-primary z-50">
       <div className="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
         <Link
           className="text-2xl md:text-4xl text-secondary font-semibold"

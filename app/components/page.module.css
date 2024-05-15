@@ -1,0 +1,44 @@
+/* styles/page.module.css */
+@keyframes borderColorChange {
+  0% {
+    border-color: #c9c9c9; /* Red */
+  }
+  10% {
+    border-color: #d2f0ff;
+  }
+  25% {
+    border-color: #a3daff; /* Orange */
+  }
+  50% {
+    border-color: #7ab8ff; /* Yellow */
+  }
+  75% {
+    border-color: #2a7cff; /* Green */
+  }
+  100% {
+    border-color: #ffffff; /* Blue */
+  }
+}
+
+.animatedBorder:hover {
+  border: 4px solid;
+  animation: borderColorChange 5s linear infinite;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.imageContainer {
+  position: relative;
+  width: 600;
+  height: 600;
+}
+
+.image {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+  /* border-radius: 50%; */
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+
+}
